@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=70A5FD&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=Building+autonomous+trading+systems+that+think;Rust+%2B+Python+for+maximum+performance;AI+that+evolves+itself+%E2%80%94+Project+Prometheus;40%2C000%2B+lines+of+self-evolving+intelligence" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=70A5FD&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=Building+autonomous+trading+systems+that+think;Rust+%2B+Python+%2B+Solidity+for+maximum+performance;AI+that+evolves+itself+%E2%80%94+Project+Prometheus;Noosphere+V2+%E2%80%94+multi-agent+collective+intelligence;DeFi+flash+loans+%2B+CEX+strategies+%3D+full+spectrum;40%2C000%2B+lines+of+self-evolving+intelligence" alt="Typing SVG" /></a>
 
 <br/>
 
@@ -59,12 +59,19 @@ Nadir — solo architect of autonomous systems that trade, learn, and evolve.
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![Transformers](https://img.shields.io/badge/Transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
+![Claude AI](https://img.shields.io/badge/Claude_AI-D4A574?style=for-the-badge&logo=anthropic&logoColor=white)
+
+### Blockchain & DeFi
+![Solidity](https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white)
+![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white)
+![Web3](https://img.shields.io/badge/Web3.py-F16822?style=for-the-badge&logo=web3.js&logoColor=white)
 
 ### Infrastructure
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
 
 </div>
 
@@ -88,6 +95,7 @@ Nadir — solo architect of autonomous systems that trade, learn, and evolve.
 <td align="center"><b>11</b><br/><sub>Microservices</sub></td>
 <td align="center"><b>12</b><br/><sub>Python Packages</sub></td>
 <td align="center"><b>100K+</b><br/><sub>Lines of Code</sub></td>
+<td align="center"><b>5</b><br/><sub>AI Oracle Sources</sub></td>
 </tr>
 </table>
 
@@ -111,14 +119,17 @@ Claude-powered Sovereign Brain for strategic decisions. TFT Oracle for temporal 
 </td>
 <td width="50%" valign="top">
 
-### Project Prometheus — *Self-Evolving AI*
-14,000+ lines of autonomous intelligence. 5-phase state machine from DORMANT to fully AUTONOMOUS. AST self-introspection, code patching with sandbox testing, 50-universe virtual crucible simulations, and adversarial market inefficiency scanning. Immutable safety guardian with JSONL audit trail.
+### Project Prometheus — *Self-Evolving Superintelligence*
+14,000+ lines across 7 modules. 5-phase state machine: DORMANT → AWAKENING → AWARE → EVOLVING → AUTONOMOUS. AST self-introspection for codebase analysis, Code Forge for automated patching with sandbox testing, 50-universe Virtual Crucible simulations with paired t-tests, 9 Predator scanners for market inefficiencies. Immutable Guardian safety layer with JSONL audit trail. All code changes pass through sandboxed A/B testing before deployment.
 
-### Noosphere V2 — *Collective Intelligence*
-9,000+ lines. Knowledge graphs, multi-agent debate protocols, red/blue team adversarial reasoning, multiverse scenario analysis, temporal reasoning engine, and cognitive genome evolution. Paradigm shift detection with graceful Ollama degradation.
+### Noosphere V2 — *Multi-Agent Collective Intelligence*
+9,000+ lines across 13 modules. Knowledge Graph with semantic reasoning, Debate Protocol for adversarial signal evaluation, Red/Blue Team for strategy stress-testing, Multiverse simulation for scenario analysis, Temporal Engine for causal reasoning, Cognitive Genome for agent evolution, Paradigm Engine for regime shift detection. Participant Models track whale/institutional/retail behavior. Full Ollama graceful degradation to deterministic fallbacks.
 
-### DeFi Layer
-Solidity smart contracts for flash loan arbitrage and on-chain execution. Integrated with the main trading engine for cross-venue opportunity capture.
+### OMEGA — *Profitability Upgrade*
+Critical profit-killing bug fixes + DeFi integration. Fixed 7 root causes preventing profits: deadlocked position exits, ghost position reconciliation, equity overlay in paper mode, dead volatility code, hardcoded returns, direct status mutations. Added real-time trade duration tracking, vol percentiles, Redis idempotency persistence.
+
+### DeFi Layer — *Solidity Smart Contracts*
+Flash loan arbitrage contracts (Aave V3 + Uniswap V3) for atomic cross-DEX execution. Arbitrage router with multi-hop path optimization. Integrated with the main EventBus — on-chain opportunities trigger alongside CEX strategies. Web3.py bridge for contract interaction, gas estimation, and transaction signing.
 
 </td>
 </tr>
