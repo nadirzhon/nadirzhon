@@ -1,119 +1,126 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=240&section=header&text=Nadir&fontSize=90&fontColor=ffffff&fontAlignY=38&desc=I+build+systems+that+think%2C+adapt%2C+and+evolve&descSize=18&descAlignY=60&descColor=a5b4fc&animation=twinkling" width="100%" />
-
-<a href="https://github.com/nadirzhon">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=A5B4FC&center=true&vCenter=true&multiline=false&repeat=true&width=600&lines=Autonomous+Trading+Systems;Thermodynamic+Market+Physics;Frontier+AI+%2F+ML+Research;Self-Evolving+Architectures;Rust+%2B+Python+%2B+Swift" alt="Typing SVG" />
-</a>
-
-<br/>
-
-[![Profile Views](https://komarev.com/ghpvc/?username=nadirzhon&color=6366f1&style=for-the-badge&label=VISITORS)](https://github.com/nadirzhon)
-[![GitHub followers](https://img.shields.io/github/followers/nadirzhon?label=Followers&style=for-the-badge&color=6366f1&logo=github)](https://github.com/nadirzhon?tab=followers)
+```
+┌─────────────────────────────────────────────────────────────┐
+│                                                             │
+│    ███╗   ██╗ █████╗ ██████╗ ██╗██████╗                    │
+│    ████╗  ██║██╔══██╗██╔══██╗██║██╔══██╗                   │
+│    ██╔██╗ ██║███████║██║  ██║██║██████╔╝                   │
+│    ██║╚██╗██║██╔══██║██║  ██║██║██╔══██╗                   │
+│    ██║ ╚████║██║  ██║██████╔╝██║██║  ██║                   │
+│    ╚═╝  ╚═══╝╚═╝  ╚═╝╚═════╝ ╚═╝╚═╝  ╚═╝                   │
+│                                                             │
+│         Security · Automation · Systems                     │
+└─────────────────────────────────────────────────────────────┘
+```
 
 </div>
 
 ---
 
-<img align="right" width="380" src="https://github-readme-stats.vercel.app/api?username=nadirzhon&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=a5b4fc&icon_color=818cf8&text_color=c9d1d9&ring_color=6366f1" />
+## About
 
-### About Me
+Security researcher and automation engineer. I build tools at the intersection of **offensive security**, **AI automation**, and **systems engineering** — from low-level network analyzers to high-level orchestration pipelines.
 
-```python
-class Nadir:
-    focus     = "Autonomous Trading Systems"
-    research  = ["Quant Finance", "Market Physics",
-                 "Frontier AI/ML", "Genetic Evolution"]
-    stack     = ["Python", "Rust", "TypeScript", "Swift"]
-    currently = "Building systems that think"
-    principle = "If it can be automated — evolve it"
-```
+Currently focused on:
 
-<br clear="right"/>
+- **Penetration testing tooling** — scanners, honeypots, traffic analyzers
+- **AI-powered automation** — n8n workflows, LLM integrations, agent pipelines  
+- **Algorithmic systems** — data collection, signal processing, execution engines
+- **Infrastructure** — Docker, VPS hardening, VPN, monitoring stacks
 
 ---
 
 ## Tech Stack
 
+**Languages**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white)
+
+**Security**
+
+![Scapy](https://img.shields.io/badge/Scapy-000000?style=flat-square&logo=python&logoColor=white)
+![Paramiko](https://img.shields.io/badge/Paramiko-3776AB?style=flat-square&logo=python&logoColor=white)
+![Nmap](https://img.shields.io/badge/Nmap-003E54?style=flat-square)
+![OWASP](https://img.shields.io/badge/OWASP_Top_10-000000?style=flat-square)
+![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
+
+**Infra & DevOps**
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
+![TimescaleDB](https://img.shields.io/badge/TimescaleDB-FDB515?style=flat-square)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
+
+**AI & Automation**
+
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI_API-412991?style=flat-square&logo=openai&logoColor=white)
+
+---
+
+## Security Portfolio
+
+| Project | Description | Stack |
+|---------|-------------|-------|
+| [custom-port-scanner](https://github.com/nadirzhon/custom-port-scanner) | Multithreaded TCP/UDP scanner with banner grabbing | Python, Socket |
+| [osint-aggregator](https://github.com/nadirzhon/osint-aggregator) | Multi-source recon: Shodan, VirusTotal, WHOIS, DNS | Python, APIs |
+| [web-vuln-scanner](https://github.com/nadirzhon/web-vuln-scanner) | OWASP Top 10 scanner: SQLi, XSS, headers | Python, BS4 |
+| [ssh-honeypot](https://github.com/nadirzhon/ssh-honeypot) | SSH honeypot with geo-enrichment + Telegram alerts | Paramiko |
+| [jwt-security-analyzer](https://github.com/nadirzhon/jwt-security-analyzer) | JWT audit: alg:none, weak secrets, forging | PyJWT |
+| [phishing-url-detector](https://github.com/nadirzhon/phishing-url-detector) | ML-based phishing classifier, 96%+ accuracy | sklearn |
+| [password-auditor](https://github.com/nadirzhon/password-auditor) | Hash cracker + policy analyzer + mutation engine | Python |
+| [log-analyzer-siem](https://github.com/nadirzhon/log-analyzer-siem) | Mini-SIEM: SSH/nginx log analysis, anomaly detection | Python |
+| [network-anomaly-detector](https://github.com/nadirzhon/network-anomaly-detector) | Real-time ARP spoof, port scan, DNS tunnel detection | Scapy |
+| [ctf-writeups](https://github.com/nadirzhon/ctf-writeups) | HTB/THM writeups + reusable PoC tools | Markdown |
+
+---
+
+## Areas of Interest
+
+```
+Offensive Security    ████████████████░░░░  80%
+Network Analysis      ███████████████░░░░░  75%
+AI / ML Systems       █████████████░░░░░░░  65%
+Backend Engineering   ████████████████████  90%
+Infrastructure        ███████████████░░░░░  75%
+```
+
+---
+
+## Stats
+
 <div align="center">
 
-**Core Languages**
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=nadirzhon&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9)
 
-![Python](https://img.shields.io/badge/Python-0d1117?style=for-the-badge&logo=python&logoColor=3776AB)
-![Rust](https://img.shields.io/badge/Rust-0d1117?style=for-the-badge&logo=rust&logoColor=DEA584)
-![TypeScript](https://img.shields.io/badge/TypeScript-0d1117?style=for-the-badge&logo=typescript&logoColor=3178C6)
-![Swift](https://img.shields.io/badge/Swift-0d1117?style=for-the-badge&logo=swift&logoColor=F05138)
-![Solidity](https://img.shields.io/badge/Solidity-0d1117?style=for-the-badge&logo=solidity&logoColor=8B9467)
-
-**AI / ML / Quant**
-
-![PyTorch](https://img.shields.io/badge/PyTorch-0d1117?style=for-the-badge&logo=pytorch&logoColor=EE4C2C)
-![NumPy](https://img.shields.io/badge/NumPy-0d1117?style=for-the-badge&logo=numpy&logoColor=013243)
-![Pandas](https://img.shields.io/badge/Pandas-0d1117?style=for-the-badge&logo=pandas&logoColor=150458)
-![SciPy](https://img.shields.io/badge/SciPy-0d1117?style=for-the-badge&logo=scipy&logoColor=8CAAE6)
-
-**Backend & Infrastructure**
-
-![FastAPI](https://img.shields.io/badge/FastAPI-0d1117?style=for-the-badge&logo=fastapi&logoColor=009688)
-![Redis](https://img.shields.io/badge/Redis-0d1117?style=for-the-badge&logo=redis&logoColor=DC382D)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0d1117?style=for-the-badge&logo=postgresql&logoColor=4169E1)
-![Docker](https://img.shields.io/badge/Docker-0d1117?style=for-the-badge&logo=docker&logoColor=2496ED)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-0d1117?style=for-the-badge&logo=kubernetes&logoColor=326CE5)
-![Grafana](https://img.shields.io/badge/Grafana-0d1117?style=for-the-badge&logo=grafana&logoColor=F46800)
-
-**Frontend**
-
-![Next.js](https://img.shields.io/badge/Next.js-0d1117?style=for-the-badge&logo=next.js&logoColor=ffffff)
-![React](https://img.shields.io/badge/React-0d1117?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Tailwind](https://img.shields.io/badge/Tailwind-0d1117?style=for-the-badge&logo=tailwind-css&logoColor=38B2AC)
-![SwiftUI](https://img.shields.io/badge/SwiftUI-0d1117?style=for-the-badge&logo=swift&logoColor=0170FE)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=nadirzhon&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9)
 
 </div>
 
 ---
 
-## Research Areas
+## Learning Path
 
-<div align="center">
-
-| Domain | Topics |
-|--------|--------|
-| **Market Physics** | Thermodynamic entropy · Phase transitions · Szilard engines · Causal regime detection |
-| **Frontier ML** | Mamba/S4 · KAN · Temporal Fusion Transformer · Geometric Deep Learning · Flow Matching |
-| **Autonomous Systems** | Self-evolving agents · Genetic algorithms · Multi-agent debate · Code generation |
-| **Quantitative Finance** | Impulse momentum · Funding arbitrage · Liquidity cascade · Conformal prediction |
-
-</div>
-
----
-
-## GitHub Stats
-
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=nadirzhon&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=a5b4fc&icon_color=818cf8&text_color=c9d1d9"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nadirzhon&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a5b4fc&text_color=c9d1d9&langs_count=8&hide=html,css"/>
-
-</div>
-
-<div align="center">
-
-[![GitHub Streak](https://streak-stats.demolab.com/?user=nadirzhon&theme=tokyonight&hide_border=true&background=0d1117&stroke=1e2030&ring=818cf8&fire=ff7b72&currStreakLabel=a5b4fc&sideLabels=a5b4fc&dates=8b949e)](https://git.io/streak-stats)
-
-</div>
-
-<div align="center">
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=nadirzhon&theme=tokyonight&no-frame=true&row=1&column=6&margin-w=8)](https://github.com/ryo-ma/github-profile-trophy)
-
-</div>
+- [ ] eJPT → OSCP
+- [ ] HackTheBox Pro Labs
+- [ ] Applied Cryptography
+- [ ] Kernel-level security (eBPF, seccomp)
+- [x] OWASP Top 10
+- [x] Network traffic analysis
+- [x] Docker / VPS hardening
 
 ---
 
 <div align="center">
 
-*"The market is a thermodynamic system. Entropy always increases — until it doesn't."*
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%" />
+*Building tools. Breaking things. Fixing them.*
 
 </div>
