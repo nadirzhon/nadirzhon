@@ -95,6 +95,18 @@ Infrastructure        ███████████████░░░░�
 
 ---
 
+## Live deployments
+
+Not just tooling — production sites and systems, shipped and running.
+
+| Project | What it is | Live |
+|---------|-----------|------|
+| [AUTONOMA studio](https://nadirzhon.github.io/) | Bilingual engineering-studio site — 3D hero, cost calculator, blog | [nadirzhon.github.io](https://nadirzhon.github.io/) |
+| [Svetopis](https://nadirzhon.github.io/svetopis/) | Photographer portfolio: gallery, moments feed, online booking | [live](https://nadirzhon.github.io/svetopis/) |
+| [Stroyflex](https://nadirzhon.github.io/stroyflex/) | Wholesale construction-chemistry catalogue, 617 SKU | [live](https://nadirzhon.github.io/stroyflex/) |
+
+---
+
 ## Stats
 
 <div align="center">
