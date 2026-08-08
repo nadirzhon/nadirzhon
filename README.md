@@ -56,6 +56,14 @@ bugs inline on the PR, with a severity gate. `uses: nadirzhon/vigil@v1`.
 Audits any MCP server for **tool poisoning**, hidden instructions, over-privileged tools, and
 injection surfaces before you connect an agent to it. `uvx mcpscan <server>`.
 
+### 🕵️ [specter](https://github.com/nadirzhon/specter) — autonomous AI recon agent
+[![CI](https://github.com/nadirzhon/specter/actions/workflows/ci.yml/badge.svg)](https://github.com/nadirzhon/specter/actions/workflows/ci.yml)
+![Agent](https://img.shields.io/badge/AI-agent-8A63D2?style=flat-square)
+
+Give it a target — Claude **plans and runs its own recon** (subdomains, DNS, fingerprinting,
+CVE cross-referencing), then writes a severity-graded report. Passive-first, scope-guarded,
+step-budgeted. `uvx specter-agent <target>`. *The agent that uses the tools above.*
+
 ---
 
 ## Tech Stack
@@ -100,6 +108,7 @@ injection surfaces before you connect an agent to it. `uvx mcpscan <server>`.
 | [**offsec-mcp**](https://github.com/nadirzhon/offsec-mcp) ⭐ | MCP server exposing recon, CVE intel & scanning to AI agents — scope-guarded | Python, FastMCP |
 | [**vigil**](https://github.com/nadirzhon/vigil) ⭐ | AI security review GitHub Action — flags injection, secrets & authz bugs on every PR | Python, Claude |
 | [**mcpscan**](https://github.com/nadirzhon/mcpscan) ⭐ | Security scanner for MCP servers — tool poisoning, over-privileged tools, injection | Python, FastMCP |
+| [**specter**](https://github.com/nadirzhon/specter) ⭐ | Autonomous AI recon agent — Claude drives recon → analysis → report, scope-guarded | Python, Claude |
 | [custom-port-scanner](https://github.com/nadirzhon/custom-port-scanner) | Multithreaded TCP/UDP scanner with banner grabbing | Python, Socket |
 | [osint-aggregator](https://github.com/nadirzhon/osint-aggregator) | Multi-source recon: Shodan, VirusTotal, WHOIS, DNS | Python, APIs |
 | [web-vuln-scanner](https://github.com/nadirzhon/web-vuln-scanner) | OWASP Top 10 scanner: SQLi, XSS, headers | Python, BS4 |
