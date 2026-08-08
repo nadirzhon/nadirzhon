@@ -64,6 +64,11 @@ Give it a target — Claude **plans and runs its own recon** (subdomains, DNS, f
 CVE cross-referencing), then writes a severity-graded report. Passive-first, scope-guarded,
 step-budgeted. `uvx specter-agent <target>`. *The agent that uses the tools above.*
 
+### 📊 [State of MCP Security](https://github.com/nadirzhon/state-of-mcp-security) — original research
+Reproducible security audit of the MCP ecosystem: scanned 15 servers (official reference + popular
+hosted) with mcpscan — **87% expose a medium-or-higher hardening issue** to connecting AI agents.
+Read-only, responsibly disclosed, with a public dataset. *Not just tools — data on the whole ecosystem.*
+
 ---
 
 ## Tech Stack
@@ -109,6 +114,7 @@ step-budgeted. `uvx specter-agent <target>`. *The agent that uses the tools abov
 | [**vigil**](https://github.com/nadirzhon/vigil) ⭐ | AI security review GitHub Action — flags injection, secrets & authz bugs on every PR | Python, Claude |
 | [**mcpscan**](https://github.com/nadirzhon/mcpscan) ⭐ | Security scanner for MCP servers — tool poisoning, over-privileged tools, injection | Python, FastMCP |
 | [**specter**](https://github.com/nadirzhon/specter) ⭐ | Autonomous AI recon agent — Claude drives recon → analysis → report, scope-guarded | Python, Claude |
+| [**State of MCP Security**](https://github.com/nadirzhon/state-of-mcp-security) 📊 | Research — scanned 15 MCP servers, 87% expose a medium+ hardening issue to agents | Research, dataset |
 | [custom-port-scanner](https://github.com/nadirzhon/custom-port-scanner) | Multithreaded TCP/UDP scanner with banner grabbing | Python, Socket |
 | [osint-aggregator](https://github.com/nadirzhon/osint-aggregator) | Multi-source recon: Shodan, VirusTotal, WHOIS, DNS | Python, APIs |
 | [web-vuln-scanner](https://github.com/nadirzhon/web-vuln-scanner) | OWASP Top 10 scanner: SQLi, XSS, headers | Python, BS4 |
