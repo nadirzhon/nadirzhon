@@ -31,23 +31,30 @@ Currently focused on:
 
 ---
 
-## ⭐ Featured — [offsec-mcp](https://github.com/nadirzhon/offsec-mcp)
+## ⭐ Flagship projects — AI × Security
 
-**Offensive-security tooling for AI agents, over the Model Context Protocol.**
+Three tools at the frontier where AI agents meet security, built on Claude:
 
+### 🛰️ [offsec-mcp](https://github.com/nadirzhon/offsec-mcp) — offensive-security tools for AI agents
 [![CI](https://github.com/nadirzhon/offsec-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/nadirzhon/offsec-mcp/actions/workflows/ci.yml)
 ![MCP](https://img.shields.io/badge/MCP-server-8A63D2?style=flat-square)
-![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 
-Give Claude, Cursor, or any MCP client the ability to run recon, pull CVE intelligence,
-analyze JavaScript, and scan ports — **only against targets you're authorized to test.**
-10 tools, an authorization-scope guard enforced in code, and a passing test suite.
+An MCP server that gives Claude/Cursor recon, CVE intel, JS analysis, and port scanning —
+**only against authorized targets** (scope guard enforced in code). `uvx offsec-mcp`.
 
-> *"Enumerate subdomains of example.com, check which are live, and flag any running software with a critical CVE."* → the agent chains `recon_subdomains` → `http_probe` → `cve_search` for you.
+### 🛡️ [vigil](https://github.com/nadirzhon/vigil) — AI security review for every pull request
+[![CI](https://github.com/nadirzhon/vigil/actions/workflows/ci.yml/badge.svg)](https://github.com/nadirzhon/vigil/actions/workflows/ci.yml)
+![GitHub Action](https://img.shields.io/badge/GitHub-Action-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 
-```bash
-uvx offsec-mcp   # run it instantly — no clone needed
-```
+A GitHub Action that reviews each PR's diff with Claude — flags injection, secrets, and authz
+bugs inline on the PR, with a severity gate. `uses: nadirzhon/vigil@v1`.
+
+### 🔎 [mcpscan](https://github.com/nadirzhon/mcpscan) — security scanner for MCP servers
+[![CI](https://github.com/nadirzhon/mcpscan/actions/workflows/ci.yml/badge.svg)](https://github.com/nadirzhon/mcpscan/actions/workflows/ci.yml)
+![MCP](https://img.shields.io/badge/MCP-security-8A63D2?style=flat-square)
+
+Audits any MCP server for **tool poisoning**, hidden instructions, over-privileged tools, and
+injection surfaces before you connect an agent to it. `uvx mcpscan <server>`.
 
 ---
 
@@ -91,6 +98,8 @@ uvx offsec-mcp   # run it instantly — no clone needed
 | Project | Description | Stack |
 |---------|-------------|-------|
 | [**offsec-mcp**](https://github.com/nadirzhon/offsec-mcp) ⭐ | MCP server exposing recon, CVE intel & scanning to AI agents — scope-guarded | Python, FastMCP |
+| [**vigil**](https://github.com/nadirzhon/vigil) ⭐ | AI security review GitHub Action — flags injection, secrets & authz bugs on every PR | Python, Claude |
+| [**mcpscan**](https://github.com/nadirzhon/mcpscan) ⭐ | Security scanner for MCP servers — tool poisoning, over-privileged tools, injection | Python, FastMCP |
 | [custom-port-scanner](https://github.com/nadirzhon/custom-port-scanner) | Multithreaded TCP/UDP scanner with banner grabbing | Python, Socket |
 | [osint-aggregator](https://github.com/nadirzhon/osint-aggregator) | Multi-source recon: Shodan, VirusTotal, WHOIS, DNS | Python, APIs |
 | [web-vuln-scanner](https://github.com/nadirzhon/web-vuln-scanner) | OWASP Top 10 scanner: SQLi, XSS, headers | Python, BS4 |
