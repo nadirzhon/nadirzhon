@@ -31,6 +31,26 @@ Currently focused on:
 
 ---
 
+## ⭐ Featured — [offsec-mcp](https://github.com/nadirzhon/offsec-mcp)
+
+**Offensive-security tooling for AI agents, over the Model Context Protocol.**
+
+[![CI](https://github.com/nadirzhon/offsec-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/nadirzhon/offsec-mcp/actions/workflows/ci.yml)
+![MCP](https://img.shields.io/badge/MCP-server-8A63D2?style=flat-square)
+![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
+
+Give Claude, Cursor, or any MCP client the ability to run recon, pull CVE intelligence,
+analyze JavaScript, and scan ports — **only against targets you're authorized to test.**
+10 tools, an authorization-scope guard enforced in code, and a passing test suite.
+
+> *"Enumerate subdomains of example.com, check which are live, and flag any running software with a critical CVE."* → the agent chains `recon_subdomains` → `http_probe` → `cve_search` for you.
+
+```bash
+uvx offsec-mcp   # run it instantly — no clone needed
+```
+
+---
+
 ## Tech Stack
 
 **Languages**
@@ -70,6 +90,7 @@ Currently focused on:
 
 | Project | Description | Stack |
 |---------|-------------|-------|
+| [**offsec-mcp**](https://github.com/nadirzhon/offsec-mcp) ⭐ | MCP server exposing recon, CVE intel & scanning to AI agents — scope-guarded | Python, FastMCP |
 | [custom-port-scanner](https://github.com/nadirzhon/custom-port-scanner) | Multithreaded TCP/UDP scanner with banner grabbing | Python, Socket |
 | [osint-aggregator](https://github.com/nadirzhon/osint-aggregator) | Multi-source recon: Shodan, VirusTotal, WHOIS, DNS | Python, APIs |
 | [web-vuln-scanner](https://github.com/nadirzhon/web-vuln-scanner) | OWASP Top 10 scanner: SQLi, XSS, headers | Python, BS4 |
