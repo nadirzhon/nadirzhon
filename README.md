@@ -71,6 +71,18 @@ Read-only, responsibly disclosed, with a public dataset. *Not just tools — dat
 
 ---
 
+## Project Navigation
+
+The profile's flagship work is organized around three themes:
+
+- **AI × Security:** offsec-mcp, vigil, mcpscan, specter
+- **Research:** State of MCP Security and reproducible security analysis
+- **Engineering:** backend systems, automation, and infrastructure projects
+
+See the individual repositories for implementation details, setup instructions, and security boundaries.
+
+---
+
 ## Tech Stack
 
 **Languages**
