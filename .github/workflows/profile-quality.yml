@@ -1,0 +1,32 @@
+name: Profile Quality
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  profile:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate profile documents
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -s README.md
+          test -s CONTRIBUTING.md
+          test -s SECURITY.md
+          test -s ROADMAP.md
+          test -s docs/ACCESSIBILITY.md
+          test -s docs/ARCHITECTURE.md
+          test -s docs/RESEARCH.md
+      - name: Check for obvious credential markers
+        shell: bash
+        run: |
+          set -euo pipefail
+          if grep -RniE 'BEGIN (RSA|OPENSSH|EC|DSA) PRIVATE KEY|ghp_[A-Za-z0-9]{20,}|AKIA[0-9A-Z]{16}' --exclude-dir=.git .; then
+            echo "Potential credential material detected"
+            exit 1
+          fi
