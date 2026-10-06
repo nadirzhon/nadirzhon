@@ -1,195 +1,111 @@
 <div align="center">
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│                                                             │
-│    ███╗   ██╗ █████╗ ██████╗ ██╗██████╗                    │
-│    ████╗  ██║██╔══██╗██╔══██╗██║██╔══██╗                   │
-│    ██╔██╗ ██║███████║██║  ██║██║██████╔╝                   │
-│    ██║╚██╗██║██╔══██║██║  ██║██║██╔══██╗                   │
-│    ██║ ╚████║██║  ██║██████╔╝██║██║  ██║                   │
-│    ╚═╝  ╚═══╝╚═╝  ╚═╝╚═════╝ ╚═╝╚═╝  ╚═╝                   │
-│                                                             │
-│         Security · Automation · Systems                     │
-└─────────────────────────────────────────────────────────────┘
-```
+# Nadir
+
+### AI Engineer · AI Agents · Automation · Backend Systems
+
+I build practical AI systems that connect models with real APIs, tools and business workflows.
+
+[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
+[![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)](https://www.docker.com/)
+[![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)](https://redis.io/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+[![MCP](https://img.shields.io/badge/MCP-Agents-7C3AED?style=flat-square)](https://modelcontextprotocol.io/)
 
 </div>
 
 ---
 
-## About
+## What I build
 
-Security researcher and automation engineer. I build tools at the intersection of **offensive security**, **AI automation**, and **systems engineering** — from low-level network analyzers to high-level orchestration pipelines.
+- **AI agents** — tool calling, orchestration, multi-step workflows
+- **AI integrations** — MCP servers, OAuth, REST APIs, external services
+- **Backend systems** — Python, FastAPI, async services, WebSockets
+- **Automation** — turning repetitive business processes into reliable workflows
+- **Production systems** — Docker, Redis, PostgreSQL, telemetry, CI/CD
+- **AI security** — securing agent tools, MCP servers and AI-powered workflows
 
-Currently focused on:
-
-- **Penetration testing tooling** — scanners, honeypots, traffic analyzers
-- **AI-powered automation** — n8n workflows, LLM integrations, agent pipelines  
-- **Algorithmic systems** — data collection, signal processing, execution engines
-- **Infrastructure** — Docker, VPS hardening, VPN, monitoring stacks
-
----
-
-## ⭐ Flagship projects — AI × Security
-
-Three tools at the frontier where AI agents meet security, built on Claude:
-
-### 🛰️ [offsec-mcp](https://github.com/nadirzhon/offsec-mcp) — offensive-security tools for AI agents
-[![CI](https://github.com/nadirzhon/offsec-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/nadirzhon/offsec-mcp/actions/workflows/ci.yml)
-![MCP](https://img.shields.io/badge/MCP-server-8A63D2?style=flat-square)
-
-An MCP server that gives Claude/Cursor recon, CVE intel, JS analysis, and port scanning —
-**only against authorized targets** (scope guard enforced in code). `uvx offsec-mcp`.
-
-### 🛡️ [vigil](https://github.com/nadirzhon/vigil) — AI security review for every pull request
-[![CI](https://github.com/nadirzhon/vigil/actions/workflows/ci.yml/badge.svg)](https://github.com/nadirzhon/vigil/actions/workflows/ci.yml)
-![GitHub Action](https://img.shields.io/badge/GitHub-Action-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-
-A GitHub Action that reviews each PR's diff with Claude — flags injection, secrets, and authz
-bugs inline on the PR, with a severity gate. `uses: nadirzhon/vigil@v1`.
-
-### 🔎 [mcpscan](https://github.com/nadirzhon/mcpscan) — security scanner for MCP servers
-[![CI](https://github.com/nadirzhon/mcpscan/actions/workflows/ci.yml/badge.svg)](https://github.com/nadirzhon/mcpscan/actions/workflows/ci.yml)
-![MCP](https://img.shields.io/badge/MCP-security-8A63D2?style=flat-square)
-
-Audits any MCP server for **tool poisoning**, hidden instructions, over-privileged tools, and
-injection surfaces before you connect an agent to it. `uvx mcpscan <server>`.
-
-### 🕵️ [specter](https://github.com/nadirzhon/specter) — autonomous AI recon agent
-[![CI](https://github.com/nadirzhon/specter/actions/workflows/ci.yml/badge.svg)](https://github.com/nadirzhon/specter/actions/workflows/ci.yml)
-![Agent](https://img.shields.io/badge/AI-agent-8A63D2?style=flat-square)
-
-Give it a target — Claude **plans and runs its own recon** (subdomains, DNS, fingerprinting,
-CVE cross-referencing), then writes a severity-graded report. Passive-first, scope-guarded,
-step-budgeted. `uvx specter-agent <target>`. *The agent that uses the tools above.*
-
-### 📊 [State of MCP Security](https://github.com/nadirzhon/state-of-mcp-security) — original research
-Reproducible security audit of the MCP ecosystem: scanned 15 servers (official reference + popular
-hosted) with mcpscan — **87% expose a medium-or-higher hardening issue** to connecting AI agents.
-Read-only, responsibly disclosed, with a public dataset. *Not just tools — data on the whole ecosystem.*
+I work end-to-end: architecture → implementation → integration → testing → deployment → debugging.
 
 ---
 
-## Project Navigation
+## Selected projects
 
-The profile's flagship work is organized around three themes:
+### 🔗 [linkedin-mcp](https://github.com/nadirzhon/linkedin-mcp)
+MCP server that connects an AI assistant to LinkedIn's official API for publishing and scheduling posts.
 
-- **AI × Security:** offsec-mcp, vigil, mcpscan, specter
-- **Research:** State of MCP Security and reproducible security analysis
-- **Engineering:** backend systems, automation, and infrastructure projects
+**Python · MCP · OAuth · REST API**
 
-See the individual repositories for implementation details, setup instructions, and security boundaries.
+### 🔎 [mcpscan](https://github.com/nadirzhon/mcpscan)
+Security scanner for MCP servers. Inspects tools, prompts and capabilities for poisoning, injection surfaces and excessive permissions.
 
----
+**Python · MCP · Security automation**
 
-## Tech Stack
+### ⚡ [APEX](https://github.com/nadirzhon/apex)
+AI-assisted security automation platform with agent orchestration, scope controls, reporting and a concurrent Go core.
 
-**Languages**
+**Python · Go · MCP · Agents**
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white)
+### 📺 [youtube-opportunity-engine](https://github.com/nadirzhon/youtube-opportunity-engine)
+Automation project for researching and evaluating YouTube content opportunities.
 
-**Security**
+**Python · Automation · Data analysis**
 
-![Scapy](https://img.shields.io/badge/Scapy-000000?style=flat-square&logo=python&logoColor=white)
-![Paramiko](https://img.shields.io/badge/Paramiko-3776AB?style=flat-square&logo=python&logoColor=white)
-![Nmap](https://img.shields.io/badge/Nmap-003E54?style=flat-square)
-![OWASP](https://img.shields.io/badge/OWASP_Top_10-000000?style=flat-square)
-![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
+### 🧪 [citycar-ai-agent-test](https://github.com/nadirzhon/citycar-ai-agent-test)
+Example AI-agent architecture for analysing sales performance using CRM and telephony data.
 
-**Infra & DevOps**
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
-![TimescaleDB](https://img.shields.io/badge/TimescaleDB-FDB515?style=flat-square)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
-
-**AI & Automation**
-
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
-![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI_API-412991?style=flat-square&logo=openai&logoColor=white)
+**Python · APIs · AI agents · Architecture**
 
 ---
 
-## Security Portfolio
+## Private flagship project
 
-| Project | Description | Stack |
-|---------|-------------|-------|
-| [**offsec-mcp**](https://github.com/nadirzhon/offsec-mcp) ⭐ | MCP server exposing recon, CVE intel & scanning to AI agents — scope-guarded | Python, FastMCP |
-| [**vigil**](https://github.com/nadirzhon/vigil) ⭐ | AI security review GitHub Action — flags injection, secrets & authz bugs on every PR | Python, Claude |
-| [**mcpscan**](https://github.com/nadirzhon/mcpscan) ⭐ | Security scanner for MCP servers — tool poisoning, over-privileged tools, injection | Python, FastMCP |
-| [**specter**](https://github.com/nadirzhon/specter) ⭐ | Autonomous AI recon agent — Claude drives recon → analysis → report, scope-guarded | Python, Claude |
-| [**State of MCP Security**](https://github.com/nadirzhon/state-of-mcp-security) 📊 | Research — scanned 15 MCP servers, 87% expose a medium+ hardening issue to agents | Research, dataset |
-| [custom-port-scanner](https://github.com/nadirzhon/custom-port-scanner) | Multithreaded TCP/UDP scanner with banner grabbing | Python, Socket |
-| [osint-aggregator](https://github.com/nadirzhon/osint-aggregator) | Multi-source recon: Shodan, VirusTotal, WHOIS, DNS | Python, APIs |
-| [web-vuln-scanner](https://github.com/nadirzhon/web-vuln-scanner) | OWASP Top 10 scanner: SQLi, XSS, headers | Python, BS4 |
-| [ssh-honeypot](https://github.com/nadirzhon/ssh-honeypot) | SSH honeypot with geo-enrichment + Telegram alerts | Paramiko |
-| [jwt-security-analyzer](https://github.com/nadirzhon/jwt-security-analyzer) | JWT audit: alg:none, weak secrets, forging | PyJWT |
-| [phishing-url-detector](https://github.com/nadirzhon/phishing-url-detector) | ML-based phishing classifier, 96%+ accuracy | sklearn |
-| [password-auditor](https://github.com/nadirzhon/password-auditor) | Hash cracker + policy analyzer + mutation engine | Python |
-| [log-analyzer-siem](https://github.com/nadirzhon/log-analyzer-siem) | Mini-SIEM: SSH/nginx log analysis, anomaly detection | Python |
-| [network-anomaly-detector](https://github.com/nadirzhon/network-anomaly-detector) | Real-time ARP spoof, port scan, DNS tunnel detection | Scapy |
-| [ctf-writeups](https://github.com/nadirzhon/ctf-writeups) | HTB/THM writeups + reusable PoC tools | Markdown |
+### HEAN — event-driven AI platform
+
+A large private system I build end-to-end: event-driven backend, AI decision layer, external data integrations, risk controls, automation, telemetry and operational dashboard.
+
+**Python · FastAPI · asyncio · WebSocket · Redis · PostgreSQL · Docker · React**
+
+The repository is private, but I can demonstrate the architecture and implementation during an interview.
 
 ---
 
-## Areas of Interest
+## Engineering approach
 
-```
-Offensive Security    ████████████████░░░░  80%
-Network Analysis      ███████████████░░░░░  75%
-AI / ML Systems       █████████████░░░░░░░  65%
-Backend Engineering   ████████████████████  90%
-Infrastructure        ███████████████░░░░░  75%
-```
+I prefer systems where AI is connected to real tools and measurable workflows rather than isolated chat interfaces.
 
----
+Typical flow:
 
-## Live deployments
+`Request → Agent → Tools/APIs → Data → Reasoning → Action → Verification → Observability`
 
-Not just tooling — production sites and systems, shipped and running.
+Key principles:
 
-| Project | What it is | Live |
-|---------|-----------|------|
-| [AUTONOMA studio](https://nadirzhon.github.io/) | Bilingual engineering-studio site — 3D hero, cost calculator, blog | [nadirzhon.github.io](https://nadirzhon.github.io/) |
-| [Svetopis](https://nadirzhon.github.io/svetopis/) | Photographer portfolio: gallery, moments feed, online booking | [live](https://nadirzhon.github.io/svetopis/) |
-| [Stroyflex](https://nadirzhon.github.io/stroyflex/) | Wholesale construction-chemistry catalogue, 617 SKU | [live](https://nadirzhon.github.io/stroyflex/) |
+- deterministic logic where possible;
+- AI where reasoning adds value;
+- explicit tool boundaries and permissions;
+- human approval for high-impact actions;
+- logs, metrics and traceable results;
+- reproducible deployments.
 
 ---
 
-## Stats
+## Core stack
 
-<div align="center">
+**Languages:** Python, Go, JavaScript/TypeScript, SQL, Bash
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=nadirzhon&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9)
+**Backend:** FastAPI, asyncio, WebSockets, REST, Pydantic
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=nadirzhon&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9)
+**Data & infrastructure:** PostgreSQL, Redis, Docker, Linux, Nginx
 
-</div>
+**AI:** AI agents, MCP, tool calling, orchestration, LLM integrations, ML pipelines
 
----
-
-## Learning Path
-
-- [ ] eJPT → OSCP
-- [ ] HackTheBox Pro Labs
-- [ ] Applied Cryptography
-- [ ] Kernel-level security (eBPF, seccomp)
-- [x] OWASP Top 10
-- [x] Network traffic analysis
-- [x] Docker / VPS hardening
+**Engineering:** Git, GitHub Actions, testing, observability, API integrations, OAuth
 
 ---
 
 <div align="center">
 
-*Building tools. Breaking things. Fixing them.*
+**Building AI systems that actually do things.**
 
 </div>
